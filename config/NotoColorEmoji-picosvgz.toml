@@ -1,0 +1,19 @@
+
+family = "NotoColorEmoji-picosvgz"
+output_file = "NotoColorEmoji-picosvgz.ttf"
+color_format = "picosvgz"
+clipbox_quantization = 32
+
+[axis.wght]
+name = "Weight"
+default = 400
+
+[master.regular]
+style_name = "Regular"
+srcs = [
+  "../font-srcs/noto-emoji/svg/*.svg",
+  "../font-srcs/noto-emoji/third_party/region-flags/waved-svg/*",
+]
+
+[master.regular.position]
+wght = 400
